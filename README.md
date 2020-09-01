@@ -1,8 +1,8 @@
-# <h1>JPEG FILE CHECKER :eye:<h1>
+# <h1>JPEG FILE CHECKER :mag: <h1>
 
-This is a simple program which tells you the file is ".jpeg" or Not.
+A simple program which tells weather a *FILE* is **.jpeg** OR **NOT**
 
-# <h2>Steps for execution<h2>
+## <h2>Steps for execution<h2>
 
 STEP 1:
 Head over to the directory in which you have kept the file  "jpegCheck"
@@ -13,12 +13,12 @@ Now, copy the image path.
 STEP 3:
 Execute this command in terminal (Without Qoutes):  "./jpegCheck" "image_path" 
  
-[!Example](EG_terminal.png)
-Format: ![Alt Text](demo)
+[!Example Link](EG_terminal.png)
 
-EG:     
-./jpegCheck /home/cprodev/Pictures/life.png
-./jpegCheck /home/cprodev/Pictures/image4.jpeg
+
+Example:     
+./jpegCheck /home/cprodev/Pictures/life.png <br>
+./jpegCheck /home/cprodev/Pictures/image4.jpeg <br>
 
 
 
