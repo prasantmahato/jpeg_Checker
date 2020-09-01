@@ -1,8 +1,8 @@
-#JPEG FILE CHECKER
+# JPEG FILE CHECKER
 
 This is a simple program which tells you the file is ".jpeg" or Not.
 
-##Steps for execution on FILE
+## Steps for execution on FILE
 
 STEP 1:
 Head over to the directory in which you have kept the file  "jpegCheck"
