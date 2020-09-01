@@ -11,7 +11,7 @@ STEP 2:
 Now, copy the image path.
 
 STEP 3:
-Execute this command (Without Qoutes):  "./jpegCheck" "image_path" 
+Execute this command in terminal (Without Qoutes):  "./jpegCheck" "image_path" 
 
 EG:     
 ./jpegCheck /home/cprodev/Pictures/life.png
