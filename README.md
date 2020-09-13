@@ -13,7 +13,7 @@ Now, copy the image path.
 **STEP 3:**
 Execute the file in terminal with image path (Without Qoutes):  "./jpegCheck" "image_path" 
  
-[!Example Link](EG_terminal.png)
+[<img align="center" alt="Banner Image" height="35%" width="75%" src="https://github.com/prasantmahato/jpeg_Checker/blob/master/EG_terminal.png" />][repo]
 
 
 **Example:**     
@@ -23,3 +23,4 @@ Execute the file in terminal with image path (Without Qoutes):  "./jpegCheck" "i
 **_THANK YOU , HAVE A GREAT DAY_**
 
 
+[repo]: https://github.com/prasantmahato/jpeg_Checker
