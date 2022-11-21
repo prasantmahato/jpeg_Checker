@@ -19,9 +19,19 @@ int main(int argc, char *argv[])
 
     //Check if bytes are 0xff 0xd8 0xff
     if(bytes[0]== 0xff && bytes[1] == 0xd8 && bytes[2] == 0xff)
-        cout<<"It is an JPEG FILE\n";
+        cout<<"JPG/JPEG File\n";
+    else if(bytes[0] == 0x89 && bytes[1] == 0x50 && bytes[2] == 0x4e)
+        cout<<"PNG File\n";
+    else if(bytes[0] == 0x47 && bytes[1] == 0x49 && bytes[2] == 0x46)
+        cout<<"GIF File\n";
+    else if(bytes[0] == 0x42 && bytes[1] == 0x4D)
+        cout<<"BMP File\n";
     else
-        cout<<"It is NOT AN JPEG FILE\n";
+        cout<<"Error: Recognizing file type.\n";
+
+
+    fclose(file);
+    file=NULL;
+
     return 0;
-    
 }
